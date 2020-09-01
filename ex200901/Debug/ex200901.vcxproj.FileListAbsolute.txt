@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\WinApi\ex200901\Debug\ex200901.exe
+C:\Users\Administrator\source\repos\WinApi\ex200901\Debug\ex200901.pdb
