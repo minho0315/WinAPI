@@ -122,7 +122,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 		OutputDebugString(str);
 	}
 	hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
-	long num = 7;
+	long num = 5;
 	HWND hWnd = CreateWindowW( //윈도우창을 생성
 		szWindowClass,
 		szTitle,
@@ -169,16 +169,15 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
 {
 	switch (message)
 	{
-	case WM_LBUTTONDOWN: // 마우스 좌측 버튼이 클릭될때   
+	/*case WM_MOUSEMOVE:
 	{
-		//printf("test\n");
-		// typedef
-		WCHAR str[32]; //
-		// wchar_t str[32];
-		//static short Ct = 0;
-	   //wsprintf(str, L"한글 %d \n", Ct++);
-		wsprintf(str, L"한글 %d \n");
-		OutputDebugString(str);
+
+	}
+	break;*/
+
+	case WM_LBUTTONDOWN: // 마우스 좌측 버튼이 클릭될때   
+	{ // Modal 상자 <-> Modal 리스
+		MessageBox(hWnd, TEXT("Hello,API"), TEXT("First"), MB_OK);
 	}
 	break;
 
