@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\WinApi\WindowsProject2\Debug\WindowsProject2.exe
+C:\Users\Administrator\source\repos\WinApi\WindowsProject2\Debug\WindowsProject2.pdb

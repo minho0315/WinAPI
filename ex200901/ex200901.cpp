@@ -177,7 +177,14 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
 
 	case WM_LBUTTONDOWN: // 마우스 좌측 버튼이 클릭될때   
 	{ // Modal 상자 <-> Modal 리스
-		MessageBox(hWnd, TEXT("Hello,API"), TEXT("First"), MB_OK);
+		long result = MessageBox(hWnd, TEXT("Hello,API"), TEXT("First"), MB_OKCANCEL);
+		//result++;
+		if (result == IDOK) {
+			MessageBox(hWnd, TEXT("OK"), TEXT("OK"), MB_OK);
+		}
+		else {
+			MessageBox(hWnd, TEXT("NG"), TEXT("NG"), MB_OK);
+		}
 	}
 	break;
 
