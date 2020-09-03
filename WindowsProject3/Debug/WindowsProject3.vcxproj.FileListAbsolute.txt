@@ -1,0 +1,2 @@
+C:\Users\Administrator\source\repos\WinApi\WindowsProject3\Debug\WindowsProject3.exe
+C:\Users\Administrator\source\repos\WinApi\WindowsProject3\Debug\WindowsProject3.pdb
