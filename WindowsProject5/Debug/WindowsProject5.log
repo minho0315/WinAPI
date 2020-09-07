@@ -1,2 +1,4 @@
 ﻿  WindowsProject5.cpp
+C:\Users\Administrator\source\repos\WinApi\WindowsProject5\WindowsProject5.cpp(191,44): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\source\repos\WinApi\WindowsProject5\WindowsProject5.cpp(192,70): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   WindowsProject5.vcxproj -> C:\Users\Administrator\source\repos\WinApi\WindowsProject5\Debug\WindowsProject5.exe
